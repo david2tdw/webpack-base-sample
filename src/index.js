@@ -1,4 +1,6 @@
 import './index.less' // 引入css
+import './css/main/index.css'
+import A from './a'
 
 class Animal {
   constructor (name) {
@@ -13,3 +15,5 @@ class Animal {
 const dog = new Animal('dog')
 console.log('aa')
 console.log('aa')
+
+A()
